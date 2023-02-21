@@ -48,17 +48,38 @@ function(){
 // ==== 9.4 Math and String Objects ====
 /* 
 1. Math Function
-    let a = Math.PI;
-    Math.sin(x);
-    Math.cos(y);
-    Math.tan(z);
-    Msth.trunc(e); //removes decimals
+    let a = Math.PI; //returns the value of Pi
+    Math.sin(x);     //returns the sine value of x
+    Math.cos(y);     //returns the cosine value of y
+    Math.tan(z);     //returns the tangent value of z
+    Math.trunc(e);   //returns the value of e with removed decimals
+    Math.random();   //returns a random floating-point pseudo-random
+                     //value between zero (0) and one (1). Takees no
+                     //input parameter
 
 
+
+2. String Functions
 
 
 */
 // ==== 9.5 Date and Number Objects ====
+/*
+
+//Sample function to generate a random number between ranges
+function randomNumber(min, max) {
+    let x = Math.random() * (max - min) + min;
+    console.log("Random Number between " +min+ " and " +max+ ": " +x);
+    return x;
+}
+
+//Number Functions
+x.toString();       //converts numeral value x to string value
+parseInt(x);        //converts String value x into int value
+parseFloat(x);      //converts String value x into float value
+
+
+*/
 
 
 
